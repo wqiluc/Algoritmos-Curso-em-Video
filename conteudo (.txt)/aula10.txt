@@ -10,7 +10,7 @@ Inicio
   repita{
      escreva "Digite um número maior que 0: "}
      (leia numero)
-  ate n > 0
+  ate numero > 0
 Fim
 -----------------------------------
 
