@@ -99,10 +99,10 @@ inicio
    escreva("Digite um número: ")
    leia(numero)
 
-   se (numero % 2 = 0) entao
-      escreva("O número é PAR")
-   senao
-      escreva("O número é ÍMPAR")
+   se (numero % 2 = 0){
+      escreva("O número é PAR")}
+   senao{
+      escreva("O número é ÍMPAR")}
    fimse
 fimalgoritmo
 
@@ -110,38 +110,38 @@ fimalgoritmo
 === FATORIAL ===
 algoritmo "Fatorial"
 var
-   n, i, fatorial: inteiro
+   inteiro numero, indice, fatorial
 inicio
    escreva("Digite um número: ")
-   leia(n)
+   leia(numero)
 
-   fatorial <- 1
+   fatorial = 1
 
-   para i de 1 ate n faca
-      fatorial <- fatorial * i
+   para indice de 1 ate número{
+      fatorial *= indice}
    fimpara
 
-   escreva("O fatorial de ", n, " é: ", fatorial)
+   escreva("O fatorial de ", numero, " é: ", fatorial)
 fimalgoritmo
 
 
 === FIBONACCI ===
 algoritmo "Fibonacci"
 var
-   n, i, a, b, proximo: inteiro
+   inteiro numero, indicr, a, b, proximo
 inicio
    escreva("Quantos termos da sequência deseja? ")
-   leia(n)
+   leia(numero)
 
    a <- 0
    b <- 1
 
-   escreva(a, " ", b, " ")
+   escreva(a, " ==> ", b, " ==> ")
 
-   para i de 3 ate n faca
-      proximo <- a + b
-      escreva(proximo, " ")
-      a <- b
-      b <- proximo
+   para indice de 3 ate numero{
+      proximo = a + b
+      escreva(proximo, " ==> ")
+      a = b
+      b = proximo}
    fimpara
 fimalgoritmo
