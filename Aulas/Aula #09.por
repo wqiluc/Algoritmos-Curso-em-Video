@@ -1,15 +1,15 @@
 programa {
   funcao inicio() {
-    /* Exemplo de Estrutura de repetiçao */
+    /* Exemplo de Estrutura de repetiÃ§Ã£o ğŸ”‚ */
     inteiro numero1
 
-    escreva("Digite o número: (999 = parar)")
+    escreva("Digite o nÃºmero: (999 = parar)")
     leia(numero1)
     enquanto (numero1 != 999) {
       escreva("\nLoop continua")
-      escreva("\nDigite o número novamente: ")
+      escreva("\nDigite o nÃºmero novamente: ")
       leia(numero1)
     }
-    escreva("\n Você digitou 999. Loop encerrado!")
+    escreva("\n VocÃª digitou 999. Loop encerrado!")
   }
 }
