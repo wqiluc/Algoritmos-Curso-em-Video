@@ -72,9 +72,76 @@ Otimizar soluções: Bons algoritmos tornam programas mais rápidos e eficientes
 Aprender programação de verdade: Entender algoritmos ajuda a criar programas complexos, 
 independentemente da linguagem.
 
-6. Exemplos de algoritmos comuns
-Problema	Algoritmo resumido
-Somar dois números	Ler n1, ler n2, soma = n1 + n2, mostrar soma
-Descobrir se um número é par	Ler n, se n mod 2 = 0 → par, senão ímpar
-Calcular fatorial	Ler n, fatorial = 1, repetir multiplicando até número, mostrar resultado
-Sequência de Fibonacci	Ler n, inicializar 0 e 1, gerar sequência até número
+6. Exemplos de algoritmos comuns:
+
+=== SOMAR DOIS NÚMEROS ===
+algoritmo "Somar_Dois_Numeros"
+var
+   numero1, numero2, soma: inteiro
+inicio
+   escreva("Digite o primeiro número: ")
+   leia(numero1)
+
+   escreva("Digite o segundo número: ")
+   leia(numero2)
+
+   soma <- numero1 + numero2
+
+   escreva("A soma é: ", soma)
+fimalgoritmo
+
+
+=== PAR OU ÍMPAR ===
+algoritmo "Par_ou_Impar"
+var
+   numero: inteiro
+inicio
+   escreva("Digite um número: ")
+   leia(numero)
+
+   se (numero % 2 = 0) entao
+      escreva("O número é PAR")
+   senao
+      escreva("O número é ÍMPAR")
+   fimse
+fimalgoritmo
+
+
+=== FATORIAL ===
+algoritmo "Fatorial"
+var
+   n, i, fatorial: inteiro
+inicio
+   escreva("Digite um número: ")
+   leia(n)
+
+   fatorial <- 1
+
+   para i de 1 ate n faca
+      fatorial <- fatorial * i
+   fimpara
+
+   escreva("O fatorial de ", n, " é: ", fatorial)
+fimalgoritmo
+
+
+=== FIBONACCI ===
+algoritmo "Fibonacci"
+var
+   n, i, a, b, proximo: inteiro
+inicio
+   escreva("Quantos termos da sequência deseja? ")
+   leia(n)
+
+   a <- 0
+   b <- 1
+
+   escreva(a, " ", b, " ")
+
+   para i de 3 ate n faca
+      proximo <- a + b
+      escreva(proximo, " ")
+      a <- b
+      b <- proximo
+   fimpara
+fimalgoritmo
