@@ -93,17 +93,19 @@ Lucas Paguetti Pereira 🧙‍♂️
 
 <h2 align="center">📁 Estrutura do Projeto: </h2>
 <pre>
+Algoritmos - Curso em Video/
 ├── Exércicios das aulas/
-├──         └── códigos resolvidos das aulas em .por (Portugol Studio💡)
+│   └── códigos resolvidos das aulas em .por (Portugol Studio💡)
 ├── conteudo (.txt)/
-├──            └── aulas 1-15.txt (resumo/explicaçoes)
+│   └── aulas 1-15.txt (resumo/explicações)
 ├── img/
-│   └── cursoemvideo.jpeg
-│   └── Algorítmos_logo.jpeg
+│   ├── cursoemvideo.jpeg
+│   ├── Algorítmos_logo.jpeg
 │   └── Algorítmos_certificado.jpeg
-└── README.md
+├── README.MD
 └── LICENSE (MIT)
 </pre>
+
 
 <h2 align="center">🏆 Certificado do Curso de Algoritmos 🖖</h2>
 
