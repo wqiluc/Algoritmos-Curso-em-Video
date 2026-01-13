@@ -42,7 +42,7 @@ Lucas Paguetti Pereira 🧙‍♂️
 
 </div>
 
-<h2 align="center">🌐 Curso em Vídeo</h2>
+<h2 align="center">🌐 Curso em Vídeo: </h2>
 
 <div align="center">
 
@@ -53,7 +53,7 @@ Lucas Paguetti Pereira 🧙‍♂️
        alt="Curso em Vídeo">
 </a>
 <a href="https://www.youtube.com/c/CursoemVideo">
-  <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white">
+  <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=black">
 </a>
 <a href="https://www.instagram.com/cursoemvideo/">
   <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
